@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>May Phue Kyaw Soe</title>
+    <link href="images/m3.jpg" rel="icon">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+</head>
+<body>
+    <!-- Container start -->
+   <div class="container">
+    <div id="them-toggler" class="fa fa-user"></div>
+    <!-- home start -->
+      <div class="aside">
+          <div class="name">
+            <span>Portfolio</span>
+            <!-- <div class="profile-img padd-15">
+              <img src="images/m2.JPG" alt="...">
+            </div> -->
+          </div>
+           
+          <div class="nav-toggler">
+            <span></span>
+          </div>
+         <div class="nav">
+          <ul>
+              <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+              <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+              <li><a href="#skill"><i class="fa fa-cogs"></i> Skills</a></li>
+              <li><a href="#experience"><i class="fa fa-history"></i> Experience</a></li>
+              <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+              <li><a href="#contact"><i class="fa fa-user"></i> Contact</a></li>
+          </ul>
+        </div>
+    </div>
+     
+      <div class="content">
+        
+          <section class="home detail" id="home">
+            <div class="container">
+              <div class="row">
+                <div class="home-img padd-15">
+                  <div class="outer-circle">
+                    <span class="material-icons-sharp">design_services</span>
+                    <span class="material-icons-sharp">dns</span>
+                    <span class="material-icons-sharp">code</span>
+                    <span class="material-icons-sharp">perm_media</span>
+                  </div>
+                  <div class="inner-circle">
+                    <img src="images/m2.JPG" alt="">
+                  </div>
+               
+              </div>
+              <div class="home-info padd-15">
+                <h3 class="home-title">Hello! I am <span class="home-name">May Phue Kyaw Soe</span></h3>
+                <h3 class="home-pro"><span class="home-web">Web Developer</span></h3>
+                <p>I am a web developer.I have more than 2years .I am a web developer.I have more than 2years .I am a web developer.I have more than 2years .</p>
+               </div>
+              </div>
+          </div>
+          </section>
+          <!-- home end -->
+          <!-- about start -->
+          <section class="about detail" id="about">
+            <div class="container">
+              <div class="row">
+                <div class="about-title padd-15">
+                  <h2>About Me</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="about-content padd-15">
+                  mayphuekyawsoe
+                </div>
+              </div>
+              <div class="row">
+                <div class="about-detail padd-15">
+                  <h3>I'm web developer</h3>
+                <p>addftinfo reads a troff font file and adds some additional font-metric information that is used by the groff system. The font
+                  file with the information added is written on the standard output. The information added is guessed using some parametric
+                  information about the font and assumptions about the traditional troff names for characters. The main information added
+                  is the heights and depths of characters. The res and unitwidth arguments should be the same as the corresponding parameters in the DESC file; font is the name of the file describing the font; if font ends with I, the font will be assumed to be italic.</p>
+                  <!-- <a  href="MayPhue.pdf" class="button"> -->
+                    <button  class="btn" onclick="openForm()">Download CV</button>
+                  <!-- </a> -->
+                </div>
+                <!-- popup start -->
+                <div class="form-popup" id="myForm">
+                  <form  class="form-container">
+                    <h1>Download CV</h1> <input type="text" placeholder="Username" name="username"  id="username" required> 
+                    <input type="password" placeholder="Password" name="psw"  id="password" required>
+                  <button  class="btn" onclick="cvDownload()" >Download</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+                  </form>
+                </div>
+                <!-- popup end -->
+                <div class="about-img padd-15">
+                  <img src="images/m4.jpg" alt="">
+                </div>
+              </div>
+              
+            </div>
+          </section>
+          <section class="skill detail" id="skill">
+            <div class="container">
+              <div class="row">
+                <div class="skills-title padd-15"> <h2>Skills</h2></div>
+              </div>
+              <div class="skill-content">
+              <div class="skills padd-15">
+                <div class="row">
+                  <div class="skill-item padd-15">
+                    <h5>HTML</h5>
+                    <div class="progress">
+                      <div class="progress-in html" style="width: 80%;">
+                        <div class="skill-percent">80%</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-item padd-15">
+                    <h5>CSS</h5>
+                    <div class="progress">
+                      <div class="progress-in css" style="width: 80%;">
+                        <div class="skill-percent">80%</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-item padd-15">
+                    <h5>Bootstrap</h5>
+                    <div class="progress">
+                      <div class="progress-in bootstrap" style="width: 75%;">
+                        <div class="skill-percent">75%</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-item padd-15">
+                    <h5>JS</h5>
+                    <div class="progress">
+                      <div class="progress-in js" style="width: 60%;">
+                        <div class="skill-percent">60%</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-item padd-15">
+                    <h5>PHP</h5>
+                    <div class="progress">
+                      <div class="progress-in php" style="width: 90%;">
+                        <div class="skill-percent">90%</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-item padd-15">
+                    <h5>C#</h5>
+                    <div class="progress">
+                      <div class="progress-in c" style="width: 50%;">
+                        <div class="skill-percent">50%</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="skill-item padd-15">
+                    <h5>C++</h5>
+                    <div class="progress">
+                      <div class="progress-in cdouble" style="width: 30%;">
+                        <div class="skill-percent">30%</div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+                <div class="row">
+                  <div class="education-title padd-15">
+                    <h2 class="title">Education</h2>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline">
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                               <h3 class="timeline-date">
+                                 <i class="fa fa-calendar"></i>Nov,2014
+                               </h3>
+                               <h4 class="timeline-title">Bachelor of Engineering(Electronics)</h4>
+                               <p class="timeline-text">Government Technological College(Myingyan)</p>
+                            </div>
+                          
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                               <h3 class="timeline-date">
+                                 <i class="fa fa-calendar"></i>Nov,2017
+                               </h3>
+                               <h4 class="timeline-title">Programming Course(C++ Programming & Window Application with C#)</h4>
+                               <p class="timeline-text"> True Hope Computer Business Center</p>
+                            
+                          </div> 
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                               <h3 class="timeline-date">
+                                 <i class="fa fa-calendar"></i>Dec,2017
+                               </h3>
+                               <h4 class="timeline-title">Relational Database Design and Developement Using SQL Server</h4>
+                               <p class="timeline-text">True Hope Computer Business Center</p>
+                            
+                          </div> 
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                               <h3 class="timeline-date">
+                                 <i class="fa fa-calendar"></i>Aug,2017
+                               </h3>
+                               <h4 class="timeline-title">Web Design</h4>
+                               <p class="timeline-text">Logic Union Training Center</p>
+                            
+                          </div> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="experience-title padd-15">
+                    <h2 class="title">Experience</h2>
+                  </div> -->
+                </div>
+              </div>
+              </div>
+            </div>
+         </section>
+         <section class="exp detail" id="experience">
+           <div class="container">
+              <div class="row">
+                <div class="exp-title padd-15"> <h2>Experience</h2></div>
+              </div>
+              <div class="row">
+                <div class="exp-box padd-15">
+                  <div class="timeline">
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                         <h3 class="timeline-date">
+                           <i class="fa fa-calendar"></i>July 2019 - June 2021 
+                         </h3>
+                         <h4 class="timeline-title">Management Partners Myanmar Co.,Ltd.</h4>
+                          <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">Healthcare Portal Project</em><br>
+                          <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">job search, job apply for hospital and nursing.</em><br>
+                          <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text"> Entertainer Web Project</em><br>
+                          <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">job search, scout for artist and chat recruiter and entertainer.</em><br>
+                          <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">Attendance Project</em><br>
+                          <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">Check daily attendance list for employee</em><br>
+                          <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">Entertainer Flutter Project</em><br>
+                          <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">job search for artist and chat recruiter and entertainer</em>
+                      </div>
+                  </div>
+                </div>
+                <div class="exp-box padd-15">
+                  <div class="timeline shadow-dark">
+                    <div class="timeline-item">
+                      <div class="circle-dot"></div>
+                         <h3 class="timeline-date">
+                           <i class="fa fa-calendar"></i>July 2017 – May 2018
+                         </h3>
+                         <h4 class="timeline-title">True Hope Computer Business Center</h4>
+                         <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">POS Project</em>
+                         <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">Point of Sale and Crystal Report</em>
+                      </div>
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                           <h3 class="timeline-date">
+                             <i class="fa fa-calendar"></i>May 2018 - June 2019
+                           </h3>
+                           <h4 class="timeline-title">ACE Data System Co.,Ltd</h4>
+                           <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">Card Zone Banking Project</em><br>
+                           <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">Check and Solve the detail error of all ATM Transactions .</em><br> 
+                            <i class="fa fa-arrow-circle-right padd-15"></i><em class="timeline-text">Test SIT ,UAT and Production activities and perform and update script.
+                              </em>
+
+                        </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+         </section>
+         <section class="pro detail"  id="portfolio">
+           <div class="container">
+             <div class="row">
+              <div class="exp-title padd-15"> <h2>Portfolio</h2></div>
+             </div>
+             <!-- <h2 class="title">My Project</h2> -->
+             <div class="box-container"> 
+             <div class="box">
+               <img src="images/7.jpg" alt="..." width="300px" height="200px">
+               <h3>Healthcare Portal Project</h3>
+               <div class="icons">
+                 <a href="https://test.borderless-working.jp/" class=" fa fa-eye"></a>
+               </div>
+             </div>
+             <div class="box">
+              <img src="images/ent.PNG" alt="..." width="300px" height="200px">
+              <h3>Attendance Project</h3>
+              <div class="icons">
+                <a href="#" class=" fa fa-lock"></a>
+              </div>
+            </div>
+            <div class="box">
+              <img src="images/7.jpg" alt="..." width="300px" height="200px">
+              <h3>Entertainer Web Project</h3>
+              <div class="icons">
+                <span  onclick=link() class=" fa fa-eye"></span>
+              </div>
+            </div>
+            <div class="box">
+              <img src="images/7.jpg" alt="..." width="300px" height="200px">
+              <h3>Entertainer Mobile Project</h3>
+              <div class="icons">
+                <a href="#" class=" fa fa-lock"></a>
+              </div>
+            </div>
+            <div class="box">
+             <img src="images/ent.PNG" alt="..." width="300px" height="200px">
+             <h3>Banking Project</h3>
+             <div class="icons">
+               <a href="#" class=" fa fa-lock"></a>
+             </div>
+           </div>
+           <div class="box">
+             <img src="images/7.jpg" alt="..." width="300px" height="200px">
+             <h3>Point of Sale Project </h3>
+             <div class="icons">
+               <a href="#" class=" fa fa-lock"></a>
+             </div>
+           </div>
+          </div>
+           
+           </div>
+         </section>
+         <section class="contact detail" id="contact">
+          <div class="container">
+            <div class="row">
+             <div class="exp-title padd-15"> <h2>Contact</h2></div>
+            </div>
+             <div class="row">
+               <div class="contact-info-item padd-15">
+                 <div class="icon"><i class="fa fa-phone"></i></div>
+                 <p>+959978170860</p>
+               </div>
+            
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker"></i></div>
+                <p>Lanmadaw Township , Yangon</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <p>mayphuekyawsoe17@gmail.com</p>
+              </div>
+            </div><br>
+            <div class="row padd-200">
+              <form action="https://formspree.io/f/mjvlbvgo" method="POST" >
+                <input type="text" name ="Name" placeholder="Name" required>
+                <input type="email" name ="Email" placeholder="Email" required>
+                <input type="text" name ="Subject" placeholder="Subject" required>
+                <textarea name="Message" placeholder="Message" rows=""></textarea>
+                <input type="submit" class="btn" value="send">
+              </form>
+            </div>
+
+          </div>
+          </section>
+      </div>
+   </div>
+    <!-- Container end -->
+    <script src="script.js">
+    </script>
+</body>
+</html>
